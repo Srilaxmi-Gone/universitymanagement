@@ -180,6 +180,7 @@ public class UniversityManagement {
 				System.out.println("Enter Course title:");
 				String assignCourse=scanner.nextLine();
 				management.assignCourseToProfessor(assignProfessor, assignCourse);
+				break;
 			
 			case 6:
 				management.listStudents();
